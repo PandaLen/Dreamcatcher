@@ -3,6 +3,20 @@ body, html {
     margin: 0;
 }
 
+.autor {
+    position: absolute;
+    z-index: 2;
+    color: gray;
+    opacity: 0.75;
+    left: auto;
+    right: 0;
+    top: auto;
+    bottom: 0;
+    padding-right: 0.5em;
+    padding-bottom: 0;
+    margin-bottom: 0.4em;
+}
+
 .pozadi {
     background-image: url(../img/bg.png);
     height: 100%;
