@@ -27,12 +27,6 @@ body, html {
     z-index: 1;
 }
 
-.lang-select {
-    margin: 0 auto;
-    display: flex;
-    cursor: pointer;
-}
-
 .nadpis {
     position: absolute;
     text-align: center;
@@ -161,3 +155,9 @@ body, html {
        font-size: 0.7em;
    } 
 }
+
+@media only screen and (max-width: 400px) {
+    .content {
+        font-size: 0.6em;
+    } 
+ }
