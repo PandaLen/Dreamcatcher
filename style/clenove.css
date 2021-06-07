@@ -1,0 +1,99 @@
+body {
+    background-image: url(../clenove/img/bg_clenove.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.zaklad {
+    list-style-type: none;
+    margin-left: 15em;
+    font-size: 17px;
+}
+
+li a {
+    color: #212529;
+    text-decoration: underline;
+}
+
+li a:hover {
+    color: #414a52;
+}
+
+.sipka {
+    color: black;
+}
+
+.fotka {
+    display: block;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1.5em;
+    filter: drop-shadow(2px 4px 8px #3b3b3b);
+    border-radius: 0.7em;
+}
+
+h2 {
+    margin-top: 0.9em;
+    font-size: 35px;
+}
+
+.carousel {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+@media only screen and (max-width: 1200px) {
+    .carousel {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+    .zaklad {
+        margin-left: 15em;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .zaklad {
+        margin-left: 10em;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .carousel {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .zaklad {
+        margin-left: 10em;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .zaklad {
+        margin-left: 5em;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .carousel {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .zaklad {
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .carousel {
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    .zaklad {
+        margin-left: 0;
+    }
+}
