@@ -40,3 +40,10 @@ background-color: rgba(220, 20, 60, 0.4);
 .rok {
     background-color: rgba(158, 158, 158, 0.4);
 }
+
+@media only screen and (max-width: 400px) {
+    table, td, th {
+        padding-right: 0.5em !important;
+        padding-left: 0.5em !important;
+    } 
+ }

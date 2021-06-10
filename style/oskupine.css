@@ -1,0 +1,25 @@
+body {
+    background-image: url(../oSkupine/img/bg_oskupine.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h2 {
+    margin-top: 0.5em;
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+p {
+    font-size: 17px;
+    padding-top: 1em;
+    padding-right: 1em;
+    padding-left: 1em;
+    padding-bottom: 1em;
+}

@@ -73,3 +73,9 @@ main {
 .active {
     font-weight: 750;
 }
+
+@media only screen and (max-width: 767px) {
+    .yes {
+        border: none !important;
+    } 
+ }
