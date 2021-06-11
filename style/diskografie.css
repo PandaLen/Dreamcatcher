@@ -65,3 +65,72 @@ main a:hover {
 .zarovnani {
     margin-top: 2em;
 }
+
+@media only screen and (max-width: 1000px) {
+    .alba {
+        margin-right: 5em !important;
+    } 
+ }
+
+ @media only screen and (max-width: 767px) {
+    .alba {
+        margin-right: 9em !important;
+    } 
+ }
+
+ @media only screen and (max-width: 600px) {
+    .alba {
+        margin-right: 8em !important;
+    } 
+ }
+
+ @media only screen and (max-width: 560px) {
+    h1 {
+        font-size: 69px !important;
+    } 
+ }
+
+ @media only screen and (max-width: 500px) {
+    .alba {
+        margin-right: 5em !important;
+    } 
+ }
+
+ @media only screen and (max-width: 415px) {
+    h1 {
+        font-size: 65px !important;
+    } 
+ }
+
+ @media only screen and (max-width: 400px) {
+    .alba {
+        margin-right: 4em !important;
+    }
+    h1 {
+        font-size: 59px !important;
+    }
+ }
+
+ @media only screen and (max-width: 361px) {
+    h1 {
+        font-size: 55px !important;
+    } 
+ }
+
+ @media only screen and (max-width: 337px) {
+    h1 {
+        font-size: 50px !important;
+    } 
+ }
+
+ @media only screen and (max-width: 310px) {
+    h1 {
+        font-size: 45px !important;
+    } 
+ }
+
+ @media only screen and (max-width: 300px) {
+    .alba {
+        margin-right: 0 !important;
+    } 
+ }
