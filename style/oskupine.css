@@ -7,19 +7,169 @@ body {
     background-attachment: fixed;
 }
 
+main a {
+    color: #212529;
+    text-decoration: underline solid #212529;
+}
+
+main a:hover {
+    color: #363d42;
+    text-decoration: underline solid #363d42;
+}
+
 h2 {
     margin-top: 0.5em;
-    font-size: 35px;
+    font-size: 40px;
 }
 
 h3 {
     font-size: 25px;
+    margin-left: 1.5em;
+    border-bottom: solid 2px black;
+}
+
+.uvod {
+    padding-top: 1.5em !important;
+}
+
+.nadpis {
+    margin-top: 1em;
+    border-bottom: solid 2px black;
+}
+
+.box {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    /* tato hodnota určuje poměr, 4:3 = 75%, 3:2 = 66%, 16:9 = 56.25% */
+}
+
+.box iframe {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 70%;
+    height: 70%;
+    margin-left: 7em;
+    border-radius: 0.7em;
+    filter: drop-shadow(2px 4px 8px #3b3b3b);
+}
+
+.ppp {
+    margin-top: 1em;
 }
 
 p {
     font-size: 17px;
-    padding-top: 1em;
+    padding-top: 0.3em;
     padding-right: 1em;
     padding-left: 1em;
     padding-bottom: 1em;
+}
+
+.dc {
+    float: right;
+    filter: drop-shadow(2px 4px 8px #3b3b3b);
+    border-radius: 0.7em;
+    margin-right: 1em;
+}
+
+.insomnia {
+    filter: drop-shadow(2px 4px 8px #3b3b3b);
+    border-radius: 0.7em;
+    margin-left: 27em;
+    margin-bottom: 2em;
+}
+
+@media only screen and (max-width: 1200px) {
+    .insomnia {
+        margin-left: 23em;
+    }
+    .box iframe {
+        margin-left: 4em;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .insomnia {
+        margin-left: 15em;
+    }
+    .box iframe {
+        margin-left: 1em;
+        width: 90%;
+        height: 90%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .insomnia {
+        margin-left: 9em;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .insomnia {
+        margin-left: 9em;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .insomnia {
+        margin-left: 6em;
+    }
+}
+
+@media only screen and (max-width: 441px) {
+    .insomnia {
+        margin-left: 5em;
+    }
+    h1 {
+        font-size: 80px !important;
+    }
+    .dc {
+        float: left;
+        margin-left: 3em;
+    }
+}
+
+@media only screen and (max-width: 405px) {
+    h1 {
+        font-size: 70px !important;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .insomnia {
+        margin-left: 3.5em;
+    }
+    .box iframe {
+        width: 80%;
+        height: 80%;
+        margin-left: 2em;
+    }
+    .dc {
+        float: none;
+        margin-left: 1em;
+    }
+    h1 {
+        font-size: 70px !important;
+    }
+}
+
+@media only screen and (max-width: 361px) {
+    h1 {
+        font-size: 60px !important;
+    }
+}
+
+@media only screen and (max-width: 317px) {
+    h1 {
+        font-size: 50px !important;
+    }
+    .dc {
+        margin-left: 0;
+    }
+    .insomnia {
+        margin-left: 1.5em;
+    }
 }
