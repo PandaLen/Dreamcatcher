@@ -1,0 +1,58 @@
+body {
+    background-image: url(../kviz/img/bg_kviz.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+form {
+    margin-top: 2em;
+}
+
+.alert-muj {
+    background-color: rgba(138, 43, 43, 0.698);
+    border: 2px solid #8a2b2b;
+    margin-top: 2em;
+}
+
+.alert-muj2 {
+    margin-top: 1em;
+    background-color: rgba(242, 199, 99, 0.698);
+    border: 2px solid #f2c763;
+}
+
+.vyhodnotit {
+    margin-left: 30em;
+}
+
+@media only screen and (max-width: 1200px) {
+    .vyhodnotit {
+        margin-left: 25em;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .vyhodnotit {
+        margin-left: 18em;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .vyhodnotit {
+        margin-left: 13em;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .vyhodnotit {
+        margin-left: 10em;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .vyhodnotit {
+        margin-left: 7em;
+    }
+}
