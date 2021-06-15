@@ -54,6 +54,10 @@ h3 {
     margin-top: 2.5em;
 }
 
+.zarovnani3 {
+    margin-top: 1em;
+}
+
 .videa p {
     font-size: 17px;
 }
@@ -79,6 +83,9 @@ main a:hover {
     }
     .zarovnani2 {
         margin-top: 1em;
+    }
+    .zarovnani3 {
+        margin-top: 0.5em;
     }
  }
 
