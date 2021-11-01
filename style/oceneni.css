@@ -33,6 +33,10 @@ background-color: rgba(220, 20, 60, 0.4);
     background-color: rgba(128, 255, 0, 0.4);
 }
 
+.pen {
+    background-color: rgba(255, 231, 19, 0.4);
+}
+
 .zahlavi {
     background-color: rgba(158, 158, 158, 0.4);
 }
